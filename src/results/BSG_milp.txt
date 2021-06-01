@@ -14,7 +14,7 @@ Coefficient statistics:
   RHS range        [1e+00, 1e+08]
 Found heuristic solution: objective -2.3000000
 Presolve removed 6 rows and 2 columns
-Presolve time: 0.00s
+Presolve time: 0.01s
 Presolved: 109 rows, 95 columns, 360 nonzeros
 Variable types: 76 continuous, 19 integer (19 binary)
 

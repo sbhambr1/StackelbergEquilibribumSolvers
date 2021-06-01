@@ -1,0 +1,2 @@
+Academic license - for non-commercial use only - expires 2021-05-31
+Using license file /opt/gurobi912/gurobi.lic
