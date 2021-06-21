@@ -1,0 +1,58 @@
+Academic license - for non-commercial use only - expires 2021-08-09
+Using license file /home/local/ASUAD/sbhambr1/gurobi.lic
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 44 rows, 27 columns and 193 nonzeros
+Model fingerprint: 0xd136a62a
+Model has 57 quadratic objective terms
+Variable types: 8 continuous, 19 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+08]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [4e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+08]
+Presolve removed 35 rows and 11 columns
+Presolve time: 0.00s
+Presolved: 46 rows, 53 columns, 137 nonzeros
+Variable types: 40 continuous, 13 integer (13 binary)
+Found heuristic solution: objective 2.0000000
+
+Explored 1 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 12 (of 12 available processors)
+
+Solution count 1: 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+---------------
+x-0 -> 0
+x-1 -> 0.5
+x-2 -> 0.5
+0-Attack1 -> 1
+0-Attack2 -> 0
+0-Attack3 -> -0
+a-0 -> -10
+1-Attack1 -> 1
+1-Attack2 -> 0
+1-Attack3 -> 0
+1-Attack1+Attack2 -> 0
+a-1 -> -10
+2-Attack1 -> 1
+2-Attack2 -> 0
+2-Attack3 -> 0
+2-Attack2+Attack3 -> 0
+a-2 -> -10
+3-Attack1 -> 0
+3-Attack2 -> 0
+3-Attack3 -> 0
+3-Attack1+Attack3 -> 1
+a-3 -> 10
+4-Attack1 -> 0
+4-Attack2 -> 0
+4-Attack3 -> 0
+4-Attack1+Attack2+Attack3 -> 1
+a-4 -> 10
+---------------
+Obj -> 2
+---------------
