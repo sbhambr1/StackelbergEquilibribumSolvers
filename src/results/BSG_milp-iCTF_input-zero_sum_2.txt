@@ -1,0 +1,131 @@
+Academic license - for non-commercial use only - expires 2021-08-16
+Using license file /home/local/ASUAD/sbhambr1/gurobi.lic
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 113 rows, 81 columns and 845 nonzeros
+Model fingerprint: 0x8cd04c99
+Variable types: 62 continuous, 19 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+08]
+  Objective range  [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+08]
+Presolve removed 43 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 70 rows, 81 columns, 492 nonzeros
+Variable types: 62 continuous, 19 integer (19 binary)
+
+Root relaxation: objective 1.000000e+01, 41 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   10.00000    0    4          -   10.00000      -     -    0s
+H    0     0                       2.0000000   10.00000   400%     -    0s
+H    0     0                       9.3000000   10.00000  7.53%     -    0s
+     0     0   10.00000    0   10    9.30000   10.00000  7.53%     -    0s
+     0     0    9.86473    0   11    9.30000    9.86473  6.07%     -    0s
+     0     0    9.86473    0    2    9.30000    9.86473  6.07%     -    0s
+     0     0    9.86473    0    7    9.30000    9.86473  6.07%     -    0s
+H    0     0                       9.3236715    9.86473  5.80%     -    0s
+     0     0    9.85780    0    7    9.32367    9.85780  5.73%     -    0s
+     0     0     cutoff    0         9.32367    9.32367  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Implied bound: 1
+  MIR: 7
+  RLT: 1
+
+Explored 1 nodes (167 simplex iterations) in 0.01 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 4: 9.32367 9.3 9.3 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.323671497685e+00, best bound 9.323671497685e+00, gap 0.0000%
+---------------
+attacker0-Attack1 -> 0
+attacker0-Attack2 -> 1
+attacker0-Attack3 -> 0
+z0-x0-q0 -> 0
+z0-x0-q1 -> 0.966184
+z0-x0-q2 -> 0
+z0-x1-q0 -> 0
+z0-x1-q1 -> 0
+z0-x1-q2 -> 0
+z0-x2-q0 -> 0
+z0-x2-q1 -> 0.0338164
+z0-x2-q2 -> 0
+a-0 -> -9.32367
+attacker1-Attack1 -> 0
+attacker1-Attack2 -> 1
+attacker1-Attack3 -> 0
+attacker1-Attack1+Attack2 -> 0
+z1-x0-q0 -> 0
+z1-x0-q1 -> 0.966184
+z1-x0-q2 -> 0
+z1-x0-q3 -> 0
+z1-x1-q0 -> 0
+z1-x1-q1 -> 0
+z1-x1-q2 -> 0
+z1-x1-q3 -> 0
+z1-x2-q0 -> 0
+z1-x2-q1 -> 0.0338164
+z1-x2-q2 -> 0
+z1-x2-q3 -> 0
+a-1 -> -9.32367
+attacker2-Attack1 -> 0
+attacker2-Attack2 -> 1
+attacker2-Attack3 -> 0
+attacker2-Attack2+Attack3 -> 0
+z2-x0-q0 -> 0
+z2-x0-q1 -> 0.966184
+z2-x0-q2 -> 0
+z2-x0-q3 -> 0
+z2-x1-q0 -> 0
+z2-x1-q1 -> 0
+z2-x1-q2 -> 0
+z2-x1-q3 -> 0
+z2-x2-q0 -> 0
+z2-x2-q1 -> 0.0338164
+z2-x2-q2 -> 0
+z2-x2-q3 -> 0
+a-2 -> -9.32367
+attacker3-Attack1 -> 0
+attacker3-Attack2 -> 0
+attacker3-Attack3 -> 1
+attacker3-Attack1+Attack3 -> 0
+z3-x0-q0 -> 0
+z3-x0-q1 -> 0
+z3-x0-q2 -> 0.966184
+z3-x0-q3 -> 0
+z3-x1-q0 -> 0
+z3-x1-q1 -> 0
+z3-x1-q2 -> 0
+z3-x1-q3 -> 0
+z3-x2-q0 -> 0
+z3-x2-q1 -> 0
+z3-x2-q2 -> 0.0338164
+z3-x2-q3 -> 0
+a-3 -> -9.32367
+attacker4-Attack1 -> 0
+attacker4-Attack2 -> 0
+attacker4-Attack3 -> 1
+attacker4-Attack1+Attack2+Attack3 -> 0
+z4-x0-q0 -> 0
+z4-x0-q1 -> 0
+z4-x0-q2 -> 0.966184
+z4-x0-q3 -> 0
+z4-x1-q0 -> 0
+z4-x1-q1 -> 0
+z4-x1-q2 -> 0
+z4-x1-q3 -> 0
+z4-x2-q0 -> 0
+z4-x2-q1 -> 0
+z4-x2-q2 -> 0.0338164
+z4-x2-q3 -> 0
+a-4 -> -9.32367
+---------------
+Obj -> 9.32367
+---------------

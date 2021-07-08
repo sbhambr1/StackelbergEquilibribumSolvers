@@ -1,0 +1,116 @@
+Academic license - for non-commercial use only - expires 2021-08-09
+Using license file /home/local/ASUAD/sbhambr1/gurobi.lic
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 113 rows, 81 columns and 845 nonzeros
+Model fingerprint: 0xd5a5efa8
+Variable types: 62 continuous, 19 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+08]
+  Objective range  [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+08]
+Presolve removed 66 rows and 35 columns
+Presolve time: 0.00s
+Presolved: 47 rows, 46 columns, 223 nonzeros
+Variable types: 33 continuous, 13 integer (13 binary)
+
+Root relaxation: objective 2.000000e+00, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       2.0000000    2.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.00 seconds
+Thread count was 12 (of 12 available processors)
+
+Solution count 1: 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+---------------
+attacker0-Attack1 -> 0
+attacker0-Attack2 -> -0
+attacker0-Attack3 -> 1
+z0-x0-q0 -> 0
+z0-x0-q1 -> 0
+z0-x0-q2 -> 0
+z0-x1-q0 -> 0
+z0-x1-q1 -> 0
+z0-x1-q2 -> 0.5
+z0-x2-q0 -> 0
+z0-x2-q1 -> 0
+z0-x2-q2 -> 0.5
+a-0 -> -10
+attacker1-Attack1 -> 0
+attacker1-Attack2 -> -0
+attacker1-Attack3 -> -0
+attacker1-Attack1+Attack2 -> 1
+z1-x0-q0 -> 0
+z1-x0-q1 -> 0
+z1-x0-q2 -> 0
+z1-x0-q3 -> 0
+z1-x1-q0 -> 0
+z1-x1-q1 -> 0
+z1-x1-q2 -> 0
+z1-x1-q3 -> 0.5
+z1-x2-q0 -> 0
+z1-x2-q1 -> 0
+z1-x2-q2 -> 0
+z1-x2-q3 -> 0.5
+a-1 -> -10
+attacker2-Attack1 -> 0
+attacker2-Attack2 -> -0
+attacker2-Attack3 -> -0
+attacker2-Attack2+Attack3 -> 1
+z2-x0-q0 -> 0
+z2-x0-q1 -> 0
+z2-x0-q2 -> 0
+z2-x0-q3 -> 0
+z2-x1-q0 -> 0
+z2-x1-q1 -> 0
+z2-x1-q2 -> 0
+z2-x1-q3 -> 0.5
+z2-x2-q0 -> 0
+z2-x2-q1 -> 0
+z2-x2-q2 -> 0
+z2-x2-q3 -> 0.5
+a-2 -> -10
+attacker3-Attack1 -> 0
+attacker3-Attack2 -> 0
+attacker3-Attack3 -> 0
+attacker3-Attack1+Attack3 -> 1
+z3-x0-q0 -> 0
+z3-x0-q1 -> 0
+z3-x0-q2 -> 0
+z3-x0-q3 -> 0
+z3-x1-q0 -> 0
+z3-x1-q1 -> 0
+z3-x1-q2 -> 0
+z3-x1-q3 -> 0.5
+z3-x2-q0 -> 0
+z3-x2-q1 -> 0
+z3-x2-q2 -> 0
+z3-x2-q3 -> 0.5
+a-3 -> 10
+attacker4-Attack1 -> 0
+attacker4-Attack2 -> 0
+attacker4-Attack3 -> 0
+attacker4-Attack1+Attack2+Attack3 -> 1
+z4-x0-q0 -> 0
+z4-x0-q1 -> 0
+z4-x0-q2 -> 0
+z4-x0-q3 -> 0
+z4-x1-q0 -> 0
+z4-x1-q1 -> 0
+z4-x1-q2 -> 0
+z4-x1-q3 -> 0.5
+z4-x2-q0 -> 0
+z4-x2-q1 -> 0
+z4-x2-q2 -> 0
+z4-x2-q3 -> 0.5
+a-4 -> 10
+---------------
+Obj -> 2
+---------------

@@ -1,0 +1,82 @@
+Academic license - for non-commercial use only - expires 2021-08-16
+Using license file /home/local/ASUAD/sbhambr1/gurobi.lic
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 44 rows, 27 columns and 193 nonzeros
+Model fingerprint: 0x94e8cbaa
+Model has 57 quadratic objective terms
+Variable types: 8 continuous, 19 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+08]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [4e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+08]
+Presolve removed 9 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 92 rows, 84 columns, 287 nonzeros
+Variable types: 65 continuous, 19 integer (19 binary)
+
+Root relaxation: objective -1.979000e+01, 17 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   19.79000    0   10          -   19.79000      -     -    0s
+H    0     0                     -10.0000000   19.79000   298%     -    0s
+H    0     0                       2.0000000   19.79000   890%     -    0s
+H    0     0                       9.3236715   19.79000   112%     -    0s
+     0     0   10.17378    0   11    9.32367   10.17378  9.12%     -    0s
+     0     0   10.00000    0   10    9.32367   10.00000  7.25%     -    0s
+     0     0   10.00000    0    8    9.32367   10.00000  7.25%     -    0s
+     0     0    9.66511    0    6    9.32367    9.66511  3.66%     -    0s
+     0     0    9.57337    0    4    9.32367    9.57337  2.68%     -    0s
+     0     0    9.37572    0    4    9.32367    9.37572  0.56%     -    0s
+     0     0    9.37572    0    4    9.32367    9.37572  0.56%     -    0s
+     0     0    9.32367    0    3    9.32367    9.32367  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Implied bound: 7
+  MIR: 3
+  RLT: 9
+  Relax-and-lift: 2
+
+Explored 1 nodes (182 simplex iterations) in 0.02 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 9.32367 2 -10 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.323671497585e+00, best bound 9.323671497585e+00, gap 0.0000%
+---------------
+x-0 -> 0.966184
+x-1 -> 0
+x-2 -> 0.0338164
+0-Attack1 -> 0
+0-Attack2 -> 1
+0-Attack3 -> 0
+a-0 -> -9.32367
+1-Attack1 -> 0
+1-Attack2 -> 1
+1-Attack3 -> 0
+1-Attack1+Attack2 -> 0
+a-1 -> -9.32367
+2-Attack1 -> 0
+2-Attack2 -> 1
+2-Attack3 -> 0
+2-Attack2+Attack3 -> 0
+a-2 -> -9.32367
+3-Attack1 -> 0
+3-Attack2 -> 0
+3-Attack3 -> 0
+3-Attack1+Attack3 -> 1
+a-3 -> -9.32367
+4-Attack1 -> 0
+4-Attack2 -> 0
+4-Attack3 -> 0
+4-Attack1+Attack2+Attack3 -> 1
+a-4 -> -9.32367
+---------------
+Obj -> 9.32367
+---------------

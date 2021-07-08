@@ -1,0 +1,71 @@
+Academic license - for non-commercial use only - expires 2021-08-16
+Using license file /home/local/ASUAD/sbhambr1/gurobi.lic
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 44 rows, 27 columns and 193 nonzeros
+Model fingerprint: 0x17eef1d2
+Model has 57 quadratic objective terms
+Variable types: 8 continuous, 19 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+08]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [4e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+08]
+Presolve removed 9 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 92 rows, 84 columns, 285 nonzeros
+Variable types: 65 continuous, 19 integer (19 binary)
+
+Root relaxation: objective -1.993000e+01, 16 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   19.93000    0   10          -   19.93000      -     -    0s
+H    0     0                      10.0000000   19.93000  99.3%     -    0s
+     0     0   11.99877    0   10   10.00000   11.99877  20.0%     -    0s
+
+Cutting planes:
+  Gomory: 5
+  MIR: 13
+  RLT: 18
+
+Explored 1 nodes (42 simplex iterations) in 0.01 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 10 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+01, best bound 1.000000000000e+01, gap 0.0000%
+---------------
+x-0 -> 0
+x-1 -> 1
+x-2 -> 0
+0-Attack1 -> 1
+0-Attack2 -> -0
+0-Attack3 -> -0
+a-0 -> -10
+1-Attack1 -> 1
+1-Attack2 -> -0
+1-Attack3 -> -0
+1-Attack1+Attack2 -> 0
+a-1 -> -10
+2-Attack1 -> 1
+2-Attack2 -> -0
+2-Attack3 -> -0
+2-Attack2+Attack3 -> 0
+a-2 -> -10
+3-Attack1 -> 0
+3-Attack2 -> -0
+3-Attack3 -> -0
+3-Attack1+Attack3 -> 1
+a-3 -> -10
+4-Attack1 -> -0
+4-Attack2 -> -0
+4-Attack3 -> -0
+4-Attack1+Attack2+Attack3 -> 1
+a-4 -> -10
+---------------
+Obj -> 10
+---------------
