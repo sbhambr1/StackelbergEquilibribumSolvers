@@ -1,0 +1,72 @@
+Academic license - for non-commercial use only - expires 2021-08-16
+Using license file /home/local/ASUAD/sbhambr1/gurobi.lic
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (linux64)
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+Optimize a model with 44 rows, 27 columns and 193 nonzeros
+Model fingerprint: 0x7f53760e
+Model has 57 quadratic objective terms
+Variable types: 8 continuous, 19 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+08]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [3e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+08]
+Presolve removed 9 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 92 rows, 84 columns, 285 nonzeros
+Variable types: 65 continuous, 19 integer (19 binary)
+
+Root relaxation: objective -1.943000e+01, 16 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   19.43000    0   10          -   19.43000      -     -    0s
+H    0     0                       9.8000000   19.43000  98.3%     -    0s
+     0     0   11.22000    0   12    9.80000   11.22000  14.5%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 9
+  RLT: 18
+  Relax-and-lift: 1
+
+Explored 1 nodes (45 simplex iterations) in 0.01 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 9.8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.800000000000e+00, best bound 9.800000000000e+00, gap 0.0000%
+---------------
+x-0 -> 0
+x-1 -> 1
+x-2 -> 0
+0-Attack1 -> 1
+0-Attack2 -> -0
+0-Attack3 -> -0
+a-0 -> -9.8
+1-Attack1 -> 1
+1-Attack2 -> -0
+1-Attack3 -> -0
+1-Attack1+Attack2 -> 0
+a-1 -> -9.8
+2-Attack1 -> 1
+2-Attack2 -> -0
+2-Attack3 -> -0
+2-Attack2+Attack3 -> 0
+a-2 -> -9.8
+3-Attack1 -> 0
+3-Attack2 -> -0
+3-Attack3 -> -0
+3-Attack1+Attack3 -> 1
+a-3 -> -9.8
+4-Attack1 -> -0
+4-Attack2 -> -0
+4-Attack3 -> -0
+4-Attack1+Attack2+Attack3 -> 1
+a-4 -> -9.8
+---------------
+Obj -> 9.8
+---------------
